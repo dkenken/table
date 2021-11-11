@@ -1,0 +1,34 @@
+th {
+  color: white;
+  background-color: red;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tfoot {
+  text-align: left;
+}
+table {
+  font-size: 300%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+td {
+  padding: 10px;
+}
+tr {
+  background-color: lightgrey;
+  border: 1px 1px solid lightskyblue;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+.pageCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 190px;
+  max-width: 730px;
+  float: none;
+}
